@@ -1,0 +1,30 @@
+{
+  "name": "electron-test-app",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js",
+    "debug": "node --inspect src/index.js"
+  },
+  "main": "src/main.js",
+  "dependencies": {
+    "electron": "^3.0.5"
+  },
+  "devDependencies": {},
+  "nodejs": {
+    "version": ">=8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appletxm/electron-app-test"
+  },
+  "keywords": [
+    "Electron",
+    "h5"
+  ],
+  "author": "appletxm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appletxm/electron-app-test/issues"
+  }
+}
