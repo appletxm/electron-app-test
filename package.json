@@ -5,10 +5,7 @@
   "scripts": {
     "start": "electron .",
     "debug": "electron . --inspect=[985]",
-    "package": "asar pack electron-test-app app.asar",
-    "build": "electron-packager  . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/kb-fav.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
-    "build-new": "electron-builder --inspect",
-    "pack": "electron-builder --dir"
+    "build": "electron-packager  . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/kb-fav.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\""
   },
   "main": "src/main.js",
   "dependencies": {
