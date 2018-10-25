@@ -1,2 +1,3 @@
-const electron = require('electron')
-console.info(electron)
+module.export = {
+  name: '123456'
+}

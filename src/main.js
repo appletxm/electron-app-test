@@ -1,7 +1,6 @@
 // import {app, BrowserWindow} from 'electron'
 // import {Menu, MenuItem, dialog, ipcMain} from 'electron'
 // import {appMenuTemplate} from './app-menu.js'
-
 const electron = require('electron')
 const {
   app,
@@ -95,12 +94,14 @@ const template = [{
 ]
 
 function createWindow() {
+  // alert(name)
+
   win = new BrowserWindow({
     width: 800,
     height: 600
   })
   win.loadFile('src/index.html')
-  // win.webContents.openDevTools()
+  win.webContents.openDevTools()
   win.on('close', () => {
     win = null
   })
